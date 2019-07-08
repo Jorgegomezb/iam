@@ -19,9 +19,7 @@ nav{
     z-index: 1;
     
 }
-#icono_cerrar{
 
-}
 #menu_movil{
     clear: none;
     background-color: rgba(0,0,0,.6);
@@ -113,12 +111,12 @@ a{
 .separador1{
     background-color: white;
 }
-#about h1,#esquema h1{
+#about h1,#esquema h1, #titulo h1{
     font-family: 'Playfair Display', serif;
     color: #7285b4;
 }
-.footer{
-    height: 10vh;
+#footer{
+    height: 5vh;
     margin-top:-2%;   
 }
 #valores h1,#contacto h1{
@@ -162,6 +160,7 @@ ul{
     #menu_desktop { display: block;  }  /* show it on small screens */
     #logo {  margin:5%; margin-left: 45%; }
     h1{ font-size: 2em;}
+    #titulo h1{ font-size: 3.5em}
     #about, #valores,#esquema,#contacto {font-size:1.7em; padding:5%;}
     
   }

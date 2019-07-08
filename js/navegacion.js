@@ -1,13 +1,13 @@
 $("#icono_menu").on("click",function(){
-    $("#menu_movil").toggle();
+    $("#menu_movil").show();
     $("#icono_menu").hide();
 });
 
 $("#icono_cerrar").on("click",function(){
-    $("#menu_movil").toggle();
+    $("#menu_movil").hide();
     $("#icono_menu").show();
 });
-$("#menu_movil").on("click",function(){
-    $("#menu_movil").toggle();
+$("#lista_menu").on("click",function(){
+    $("#menu_movil").hide();
     $("#icono_menu").show();
 });
