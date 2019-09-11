@@ -186,3 +186,11 @@
 <script src="bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
 <script src="js/jquery.js"></script>
 <script src="js/navegacion.js"></script>
+<script>
+    $(".list_element").on("click", function(){
+        $(".list_element").each(function( index ){
+            $( this ).removeClass("active");
+        });
+        $(this).addClass("active");
+    });
+</script>
