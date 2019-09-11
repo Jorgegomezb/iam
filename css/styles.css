@@ -149,7 +149,8 @@ ul{
     #logo {  margin:6%; }
     #container_imagen{        margin-top: -50%;    }
     h1{ font-size: 1.7em;}
-    #about, #valores,#esquema,#contacto  {font-size:1em; margin:2%;}
+    #about, #valores,#contacto  {font-size:1em; margin:2%;}
+    #esquema {font-size:1em; margin-top: 50px;}
     #valores h1 {text-align: center}
     #lista_valores { padding-left: 0; font-size:0.9em; }
   }
